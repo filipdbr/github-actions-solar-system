@@ -56,7 +56,7 @@ jobs:
 
       - name: Run code coverage test
         continue-on-error: true
-        run: npm run code-coverage
+        run: npm run coverage
 
       - name: Update the reports
         uses: actions/upload-artifact@v4
